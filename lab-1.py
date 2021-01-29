@@ -10,9 +10,16 @@ def hello():
 # 2. pwd must be alphanumeric
 # 3. pwd must have 2 or more numbers
 def validatePassword(pwd):
-    if len(pwd) > 7:      
-        if pwd.isalnum():   
-            return print("hi")
+    check = 0 
+
+    if len(pwd) > 7 and pwd.isalnum():  
+        for element in pwd:
+            if element.isdigit():
+                check += 1
+                if check >= 2:
+                    return True
+    
+    else: return False
 
 # Question 3:
 # 1. num must be > 1
@@ -28,3 +35,7 @@ def sumUpToN(num):
         for index in range(num):
             sum += index    
         return sum
+
+hello()
+print(validatePassword("hbhjdbj78987"))
+print(sumUpToN(6))
