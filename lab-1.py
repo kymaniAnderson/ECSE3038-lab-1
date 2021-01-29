@@ -16,10 +16,13 @@ def validatePassword(pwd):
         for element in pwd:
             if element.isdigit():
                 check += 1
-                if check >= 2:
-                    return True
+        if check >= 2: 
+            return True
+        else: 
+            return False
     
-    else: return False
+    else: 
+        return False
 
 # Question 3:
 # 1. num must be > 1
@@ -37,5 +40,5 @@ def sumUpToN(num):
         return sum
 
 hello()
-print(validatePassword("hbhjdbj78987"))
+print(validatePassword("hbhjdbj7"))
 print(sumUpToN(6))
