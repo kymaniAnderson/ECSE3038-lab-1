@@ -5,7 +5,7 @@
 def hello():
     print("ECSE3038 - Engineering IoT Systems")
 
-# Question 2: ((INCOMPLETE))
+# Question 2: 
 # 1. pwd must be > 7 characters 
 # 2. pwd must be alphanumeric
 # 3. pwd must have 2 or more numbers
