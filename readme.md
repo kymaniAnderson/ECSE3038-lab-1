@@ -17,3 +17,7 @@
 1. Accepts a number
 2. Checks if number < than 1 and returns -1
 3. If number is > 1, returns sum of all numbers from 1 to the selected number.
+
+
+> Why do we tell actors to *“break a leg?”*  
+>> Because every play has a **cast**
